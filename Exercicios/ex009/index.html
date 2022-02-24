@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código Fonte</h2>
+    <p>O Comando <code>document.getElementById('Teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>  <!--UTILIZADO A TAG PRE, O TEXTO ENTRE ELA É CONSIDERADO TODAS AS IDENTAÇÕES -->
+        <code>
+num=int(input('Digite um numero'))
+if num % 2 == 0:
+    print(f'O numero {num} é PAR')
+else:
+    print(f'O numero {num} é IMPAR')
+print('Fim do programa')
+        </code>
+    </pre>
+    <H2>Citações simples</H2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido!</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo o autor Jeff Noble, no seu livro HTML para Leigos: </p>
+    <blockquote cite="COLOQUE AQUI O LINK DO LIVRO, PARA O GOOGLE OU FERRAMENTAS DE BUSCA IDENTIFICAR DE ONDE ESTA VINDO A FRASE">
+        A separação da estruturo de um site em 3 elementos, organiza e deixa mais limpo e eficiente seu 
+        desenvolvimento.
+        httml5 conteudo; ccs design e javascript para interações.
+    </blockquote>
+    <H2>Abreviações</H2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML5</abbr> e <abbr title="Cascading Style">CCS3</abbr>. Estou amando.</p>
+    
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas:</h2>
+    <ol type="1" start="4">  <!--Cria a lista editavel e escolheu comecar 
+        após o 4 (Caso queira usar numeros romanos, trocar o 1 por I)-->
+        <li>Acordar</li>
+        <li>Levantar</li>
+        <li>Tomar café</li>
+        <li>Beber agua</li>
+        <li>Trabalhar</li>
+    </ol>
+
+    <h2>Listas não ordenadas</h2>
+    <ul type="cicle"> <!--Tem os tipos disc- cicle -square-->
+
+        <li>Pão</li>
+        <li>leite</li>
+        <li>Café</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol>
+            <li>Clipper</li>
+            <li>VB</li>
+            <li>Fortran</li>
+            <li>Delphi</li>            
+        </ol>
+        <li>Novas</LI>
+        <ol>
+            <li>PHP</li>
+            <li>Phyton</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario bros 3</li>
+                <li>Mario world</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+
+    </ol>
+    <h2>Lista de Definição</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interativadade de um site</dd>
+    </dl>
+
+
+        
+</body>
+</html>
